@@ -2,14 +2,12 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package Actividad12;
+package Actividad13;
 
 /**
  *
  * @author Manzana
  */
-public class Calculadora {
-    public void calcular(Impuesto impuesto) {
-        System.out.println("Calculando impuesto: " + impuesto);
-    }
+public class GeneradorQR {
+    
 }
