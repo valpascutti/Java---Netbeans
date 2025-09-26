@@ -9,5 +9,9 @@ package Actividad13;
  * @author Manzana
  */
 public class Main {
-    
+    public static void main(String[] args) {
+        Usuario u = new Usuario("Ana Torres", "ana@gmail.com");
+        GeneradorQR generador = new GeneradorQR();
+        generador.generar("ABC123XYZ", u);
+    }
 }

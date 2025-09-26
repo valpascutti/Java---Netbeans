@@ -9,5 +9,9 @@ package Actividad14;
  * @author Manzana
  */
 public class Main {
-    
+    public static void main(String[] args) {
+        Proyecto p = new Proyecto("Intro Animada", 5);
+        EditorVideo editor = new EditorVideo();
+        editor.exportar("MP4", p);
+    }
 }
